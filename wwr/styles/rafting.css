@@ -7,6 +7,45 @@
     --jonquil: #FFD106;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo-box img {
+    margin: 0 0.25rem 0;
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+}
+
+.navigation {
+    font-size:x-large;
+    display: flex;
+	list-style: none;
+}
+
+.navigation a {
+    display: block;
+    color: var(--blue-ncs);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--jonquil);
+	font-weight: 700;
+	text-decoration: overline;
+}
+
 h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -49,7 +88,6 @@ div.wrap {
     font-size:50px;
     background-color: rgba(0, 0, 0, 0.596);
     padding: 15px;
-
 }
 
 .hero article{
@@ -61,28 +99,90 @@ div.wrap {
     width: auto;
 }
 
-.hero p{
+.hero p {
     position: relative;
     color: var(--jonquil);
     font-size: x-large;
     padding: 60px;
     bottom: 160px;
     right: 150px;
-
 }
-
 
 .hero img {
     display: block;
     width: 100%;
 }
 
-.hero article img{
+.hero article img {
     position: absolute;
     height: 200px;
     width: auto;
     bottom: 50px;
     left: 65%;
     float: left;
+}
 
+.history {
+    display: grid;
+    align-items: center;
+    text-align: center;    
+}
+
+.history h2 {
+    font-size: xx-large;
+}
+
+.history p {
+    text-align: justify;
+}
+
+.adventure-grid {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.adventure h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.adventure-grid img {
+    max-width: 220px;
+    max-height: 150px;
+}
+  
+.adventure-grid figcaption {
+    background-color: #222;
+    color: var(--jonquil);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    
+    padding: 10px;
+    grid-template-columns:  auto auto;
+
+    
+}
+footer p{
+    text-align: center;
+}
+
+.sociallinks img{
+    margin-left: 10px;
+    width: auto;
+    justify-content: right;
 }
