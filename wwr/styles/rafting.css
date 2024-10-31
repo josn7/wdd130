@@ -266,3 +266,8 @@ button:hover{
     display: flex;
     justify-content: center;
 }
+
+.form-item p{
+    color: black;
+
+}
