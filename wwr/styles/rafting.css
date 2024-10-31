@@ -50,7 +50,7 @@ h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--jonquil);
+    color: var(--blue-ncs);
 }
 
 h2 {
@@ -185,4 +185,84 @@ footer p{
     margin-left: 10px;
     width: auto;
     justify-content: right;
+}
+
+.conteiner {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    text-align:right;
+}
+
+.contact {
+    margin-right: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--blue-ncs);
+    font-size: 1.3em;
+    font-family: "barlow";
+}
+
+label, input, button, select, textarea {
+    font-family: "roboto", sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    width: 8rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }
