@@ -57,7 +57,7 @@ h2 {
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--vivid-sky-blue);
+    color: #003366;
     font-size: large;
 }
 
@@ -270,4 +270,187 @@ button:hover{
 .form-item p{
     color: black;
 
+}
+
+.index_page img{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_page h1 {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Espaço entre o vídeo e o texto */
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    margin-right: 30px; /* Espaçamento entre o vídeo e o texto */
+}
+
+.video-text {
+    max-width: 500px; /* Limita a largura do texto */
+}
+
+.video-text h2 {
+    color: #003366; /* Cor do título */
+    font-size:xx-large;
+}
+
+.video-text p {
+    color: #333; /* Cor do texto */
+    font-size: larger;
+}
+
+.newsletter {
+    background-color: #e7f3ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #003366;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #ffcc00;
+}
+.call-to-action {
+    background-color: #ffcc00; /* Bright background color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.call-to-action h2 {
+    color: #003366; /* Dark text color */
+}
+
+.call-to-action p {
+    color: #333; /* Dark text for paragraph */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #00509e; /* Darker shade on hover */
+}
+
+.grid-layout {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-item {
+    background-color: #ffffff; /* Background color for grid items */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%; /* Responsive images */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.grid-item h3 {
+    color: #003366; /* Dark color for headings */
+}
+
+.grid-item p {
+    color: #333; /* Dark color for paragraph text */
+}
+
+.trip-descriptions {
+    margin: 40px 0;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.trip-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.trip-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip-table {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.trip-table th {
+    background-color: #003366;
+    color: white;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
